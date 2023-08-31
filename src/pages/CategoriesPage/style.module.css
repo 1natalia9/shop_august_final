@@ -1,10 +1,25 @@
-.container{
-    max-width: 1100;
+.container {
+    max-width: 1100px;
     margin: 20px auto;
 }
-.cardsContainer{
+
+.cardsContainer {
     display: grid;
     grid-auto-rows: 50px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 30px;
 }
+
+.container img {
+    width: 300px;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-bottom: 50px;
+    font-weight: 40px;
+}
+

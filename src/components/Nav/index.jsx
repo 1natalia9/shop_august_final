@@ -7,10 +7,13 @@ export default function Nav() {
     const classActive = ({isActive}) => isActive ? s.active : "";
 
   return (
-  <nav className={s.nav}>
-   <NavLink className={classActive} to="/">Категорий</NavLink>
-   <NavLink className={classActive} to="/products">Все товары</NavLink>
-   <NavLink className={classActive} to="/basket">Корзина</NavLink>
+<div className={s.container}>
+  <h1>Shop-online</h1>
+<nav className={s.nav}>
+   <NavLink className={classActive} to="/">Categories</NavLink>
+   <NavLink className={classActive} to="/products">Products</NavLink>
+   <NavLink className={classActive} to="/basket">Car</NavLink>
   </nav>
+</div>
   )
 }
