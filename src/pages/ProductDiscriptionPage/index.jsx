@@ -11,7 +11,7 @@ export default function ProductDiscriptionPage() {
 
     const render = () =>{
       if (product === undefined) {
-        return <p>Таког товара нет</p>
+        return <p>There are no such products</p>
       }else{
         const {title, image, description, price} = product;
         return (

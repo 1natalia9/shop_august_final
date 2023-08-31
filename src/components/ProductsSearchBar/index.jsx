@@ -11,7 +11,7 @@ export default function ProductsSearchBar() {
     }
 return (
     <div className={s.container}>
-        <input placeholder='искать...' onChange={onChange} type='text'/>
+        <input placeholder='search...' onChange={onChange} type='text'/>
     </div>
   )
 }

@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .nav{
@@ -13,8 +14,10 @@
     align-items: center;
 }
 
-h1 {
+.logo {
     font-family: 'Dancing Script', cursive;
+    color: black;
+    text-decoration: none;
 }
 
 .nav a{
@@ -25,4 +28,8 @@ h1 {
 
 nav .active{
     color: red;
+}
+
+.nav i {
+    font-size: 40px;
 }

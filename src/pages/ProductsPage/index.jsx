@@ -21,7 +21,7 @@ export default function ProductsPage() {
    <div>
        {
         products.length === 0
-        ? <p>Таких товаров нет</p>
+        ? <p>There are no such products</p>
         : <>
         <h1>{category}</h1>
         <ProductsSearchBar />

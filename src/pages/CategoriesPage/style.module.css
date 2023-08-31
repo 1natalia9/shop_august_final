@@ -16,9 +16,12 @@
 }
 
 .item {
+    font-family: 'Dancing Script', cursive;
+    color: green;
+    font-size: 40px;
     display: flex;
     align-items: center;
-    gap: 20%;
+    gap: 18%;
     margin-bottom: 50px;
     font-weight: 40px;
 }
