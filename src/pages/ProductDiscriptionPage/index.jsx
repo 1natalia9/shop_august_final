@@ -22,7 +22,7 @@ export default function ProductDiscriptionPage() {
                  <p>{description}</p>
                  <div className={s.sale_block}>
                  <p>Price: {price}</p>
-                 <button onClick={() => dispatch(basketAddAction(+id))}>Добавить в корзину</button>
+                 <button className={s.btn} onClick={() => dispatch(basketAddAction(+id))}>Add to cart</button>
              </div>
           </div>
          </div>
