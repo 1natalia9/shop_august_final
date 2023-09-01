@@ -18,7 +18,12 @@
     font-family: 'Dancing Script', cursive;
     color: black;
     text-decoration: none;
+    transition: transform 500ms ease;
 }
+
+.logo:hover {
+    transform: scale(1.05);
+  }
 
 .nav a{
     text-decoration: none;

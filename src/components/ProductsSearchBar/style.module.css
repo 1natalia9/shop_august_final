@@ -1,8 +1,8 @@
-.container{
-    padding: 10px;
-    width: 1100px;
-    margin-left: 208px;
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
 }
+
 .container input{
     padding: 5px;
 }

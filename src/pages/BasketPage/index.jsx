@@ -13,7 +13,7 @@ export default function BasketPage() {
       <div className={s.page}>
         {
           data.length === 0
-            ? <p>Товаров в корзине нет</p>
+            ? <p>There are no items in the cart</p>
             : <>
               <div className={s.container}>
                 {

@@ -12,10 +12,10 @@ export default function BasketItem({id, image, title, count, price}) {
         <p>{title}</p>
         <p>{price} X {count} = {(price * count).toFixed(2)}</p>
         <div className={s.btn_container}>
-            <button onClick={()=> dispatch(basketIncrAction(id))}>+</button>
-            <button onClick={()=> dispatch(basketDecrAction(id))}>-</button>
+            <button className={s.btn_item} onClick={()=> dispatch(basketIncrAction(id))}>+</button>
+            <button className={s.btn_item} onClick={()=> dispatch(basketDecrAction(id))}>-</button>
       </div>
-      <button onClick={()=>dispatch(basketRemoveProductAction(id))}>Удалить</button>
+      <button className={s.btn} onClick={()=>dispatch(basketRemoveProductAction(id))}>Delete</button>
     </div>
   )
 }

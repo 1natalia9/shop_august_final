@@ -14,9 +14,9 @@ export default function BasketCalculation() {
    const totalSum = productsInBasket.reduce((acc, {count, price})=> acc + count * price, 0);
     return (
        <div className={[s.item, s.test].join(" ")}>
-         <p>Количество: {totalCount}</p>
-         <p>Общая сумма: {totalSum.toFixed(2)}</p>
-         <button onClick={() => dispatch(basketResetAction())}>Очистить</button>
+         <p>Quantity: {totalCount}</p>
+         <p>Total sum: {totalSum.toFixed(2)}</p>
+         <button className={s.btn} onClick={() => dispatch(basketResetAction())}>Clear</button>
        </div>
     )
 }

@@ -23,7 +23,7 @@ export default function ProductsPage() {
         products.length === 0
         ? <p>There are no such products</p>
         : <>
-        <h1>{category}</h1>
+        <h1 className={s.category}>{category}</h1>
         <ProductsSearchBar />
         <div className={s.container}>
     {
