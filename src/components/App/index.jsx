@@ -24,7 +24,7 @@ export default function App() {
  <div>
    <Nav />
    <Routes>
-    <Route path="/" element={<CategoriesPage />} />
+    <Route path="/shop_august_final" element={<CategoriesPage />} />
     <Route path="/basket" element={<BasketPage />} />
     <Route path="/products" element={<ProductsPage />} />
     <Route path="/products/:category" element={<ProductsPage />} />
