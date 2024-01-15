@@ -29,6 +29,7 @@ export default function ProductsPage() {
     {
         products
         .filter(({show}) => show)
+        .filter(el => el.show_item)
         .map((product) => <ProductItem key={product.id} {...product}/>)
     }
    </div>
