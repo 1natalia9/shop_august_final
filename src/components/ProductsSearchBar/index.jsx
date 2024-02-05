@@ -21,7 +21,7 @@ export default function ProductsSearchBar() {
     }
 
 return (
-    <div>
+    <div className={s.container}>
         <label>
             <span>Price:</span>
             <form onSubmit={filter_price}>
@@ -39,7 +39,7 @@ return (
             <option value='price_desc'>by price DESC</option>
         </select>
         </label>
-       <div className={s.container}>
+       <div>
         <input placeholder='search...' onChange={onChange} type='text'/>
        </div>
     </div>
